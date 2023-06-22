@@ -24,6 +24,7 @@ def test_circle():
     assert area == 1661.9025137490005
     length = 2 * pi * r
     assert length == 144.51326206513048
+    print(f"Площадь = {area}, длина окружности = {length}")
 
 
 def test_random_list():
