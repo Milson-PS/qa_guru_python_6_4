@@ -16,7 +16,7 @@ def test_rectangle():
     assert perimeter == 60
     area = a * b
     assert area == 200
-
+    print(f"Площадь = {area}, Периметр = {perimeter}")
 
 def test_circle():
     r = 23
@@ -49,5 +49,6 @@ def test_dicts():
     first = ["a", "b", "c", "d", "e"]
     second = [1, 2, 3, 4, 5]
     d = dict(zip(first, second))
+    print(list(d.values()))
     assert isinstance(d, dict)
     assert len(d) == 5
